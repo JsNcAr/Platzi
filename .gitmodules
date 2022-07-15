@@ -3,4 +3,4 @@
 	url = ./WebDesign
 [submodule "Git_course"]
 	path = Git_course
-	url = ./Git_course
+	url = https://github.com/JsNcAr/Git_course
