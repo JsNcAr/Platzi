@@ -1,3 +1,6 @@
 [submodule "WebDesign"]
 	path = WebDesign
 	url = ./WebDesign
+[submodule "Git_course"]
+	path = Git_course
+	url = ./Git_course
