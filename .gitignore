@@ -1,3 +1,4 @@
 /Python/venv/
 /Git_course/
 **/test.py
+**/__pycache__/
