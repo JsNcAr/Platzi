@@ -1,0 +1,17 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda
+  - python
+  - conda-env
+  - conda-build
+  - conda-verify
+  - _ipyw_jlab_nb_ext_conf
+  - anaconda==2022.05=py39_0
+  - anaconda-navigator
+  - navigator-updater
+  - colorama
+  - numpy
+prefix: /home/ramsus/anaconda3

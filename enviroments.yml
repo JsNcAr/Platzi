@@ -1,0 +1,7 @@
+name: platzi
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+prefix: /home/ramsus/anaconda3/envs/platzi
