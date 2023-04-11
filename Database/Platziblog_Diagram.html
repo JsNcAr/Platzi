@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PlatziBlog</title>
+</head>
+
+<body>
+
+	<ul>
+		<li>
+			Usuarios
+			<ul>
+				<li> <ins>id: INTEGER(PK)</ins> </li>
+				<li>login: VARCHAR(30) NN</li>
+				<li>password VARCHAR(32) NN</li>
+				<li>apodo:VARCHAR(40) NN</li>
+				<li>email: VARCHAR(40) NN UNIQUE</li>
+			</ul>
+		</li>
+
+		<li>
+			Comentarios
+			<ul>
+				<li> <ins>id: INTEGER (PK)</ins> </li>
+				<li>contenido: TEXT</li>
+				<li>usuarios_id: INTEGER FK</li>
+				<li>post_id: INTEGER FK</li>
+			</ul>
+		</li>
+
+		<li>
+			Post
+			<ul>
+				<li> <ins>id: INTEGER(PK) </ins> </li>
+				<li>titulo: VARCHAR(150)</li>
+				<li>fecha_publicacion TIMESTAMP</li>
+				<li>contenido: TEXT</li>
+				<li>estatus: CHAR(8) CHECK(IN('ACTIVO', 'INACTIVO'))</li> <!--activo/inactivo -->
+				<li>usuarios_id: INTEGER FK</li>
+			</ul>
+		</li>
+
+		<li>
+			Categorias
+			<ul>
+				<li> <ins>id: INTEGER(PK)</ins> </li>
+				<li>nombre_categoria: VARCHAR(30)</li>
+				<li>categorias_id: INTEGER FK</li>
+			</ul>
+		</li>
+
+	</ul>
+	<ul>
+		<li>Etiquetas</li>
+		<ul>
+			<li> <ins>id: INTEGER(PK)</ins> </li>
+			<li>nombre_etiqueta: VARCHAR(30)</li>
+		</ul>
+	</ul>
+	<ul>
+		<li>Post_etiquetas</li>
+		<ul>
+			<li><ins>post_id: INTEGER (PK,FK) </ins></li>
+			<li><ins>etiquetas_id: INTEGER (PK,FK)</ins></li>
+		</ul>
+	</ul>
+
+</body>
+
+</html>
