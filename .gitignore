@@ -2,3 +2,5 @@
 /Git_course/
 **/test.py
 **/__pycache__/
+/Database/*.txt
+/Database/*.csv
