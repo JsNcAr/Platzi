@@ -30,7 +30,7 @@ Carpeta para proyectos de varios de los cursos de Python de Platzi.
 
 ## [Rock Paper Scissors](https://github.com/JsNcAr/Platzi/tree/main/Python/Rock_Paper_Scissors)
 
-Para correr el juego debes seguir las siguientes instruicciones en la terminal:
+Para correr el juego debes seguir las siguientes instrucciones en la terminal:
 
 ```bash
 git clone https://github.com/JsNcAr/Platzi.git
@@ -42,7 +42,7 @@ El juego no usa ninguna libreria externa, solo las librerias estandar de Python.
 
 ## [Hangman](https://github.com/JsNcAr/Platzi/tree/main/Python/Hangman)
 
-Para correr el juego debes seguir las siguientes instruicciones en la terminal:
+Para correr el juego debes seguir las siguientes instrucciones en la terminal:
 
 ```bash
 git clone https://github.com/JsNcAr/Platzi.git
