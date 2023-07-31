@@ -16,6 +16,14 @@ Carpeta para proyectos del <a href="https://platzi.com/cursos/bd/">Curso de Fund
 
 Carpeta para proyectos del <a href="https://platzi.com/cursos/excel-intro/">Introducción a Excel para Principiantes</a> de Platzi.
 
+# [C#](https://github.com/JsNcAr/Platzi/tree/main/C_Sharp)
+
+Carpeta para proyectos de los cursos de C# de Platzi.
+
+## [randomNumberGuesser](https://github.com/JsNcAr/Platzi/tree/main/C_Sharp/randomNumberGuesser)
+
+Minijuego donde el usuario debe adivinar un numero aleatorio entre 1 y el numero maximo que el usuario elija.
+
 # [Python](https://github.com/JsNcAr/Platzi/tree/main/Python)
 
 Carpeta para proyectos de varios de los cursos de Python de Platzi.
