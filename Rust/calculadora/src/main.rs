@@ -6,7 +6,7 @@ fn main() {
     println!("Enter an operation:");
     let mut input = String::new();
 
-    // Apply Operation
+    // Read user input
     io::stdin()
         .read_line(&mut input)
         .expect("Failed to read line");
@@ -22,6 +22,12 @@ fn main() {
         let result = apply_operation(&new_input, operation_name, re);
         new_input = result.to_string();
     }
+
+    // Cast to i32
+    let new_input: i32 = new_input
+        .trim()
+        .parse()
+        .expect("Invalid operation, please try again");
 
     println!("Result: {}", new_input);
 }
