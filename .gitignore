@@ -3,6 +3,7 @@
 /Database/*.txt
 /Database/*.csv
 .vscode/settings.json
+**/node_modules/
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,monodevelop,jupyternotebooks,python,venv,dotenv,csharp,c++,database,node,web,kotlin,rust,rust-analyzer,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,monodevelop,jupyternotebooks,python,venv,dotenv,csharp,c++,database,node,web,kotlin,rust,rust-analyzer,linux
 
