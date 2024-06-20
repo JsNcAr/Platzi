@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-selenium"
+version = "0.1.0"
+description = ""
+authors = ["JsNcAr <jn.arias@uniandes.edu.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.20.0"
+pytest-html = "^4.1.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
